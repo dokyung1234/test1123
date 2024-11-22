@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+.inner{width: 1720px; margin: 0 auto;}
+
+/*header*/
+header{position: absolute; top: 0; left: 0; width: 100%; z-index: 99;}
+header .inner{display: flex; justify-content: space-between; align-items: center;}
+header .inner .gnb a{color: #fff; padding: 0 25px;}
+header .inner .g_icon a{padding-left: 15px;}
+header .inner .gnb a:hover{text-decoration: underline solid #fff 1px;}
+
+.swiper-button-next , .swiper-button-prev{color: rgba(0, 0, 0, 0.5);}
+.swiper-button-next:hover , .swiper-button-prev:hover{color: #fff;}
+
+/*main icon*/
+.main_icon{background-color: #f1f1f1; height: 193px; width: 100%; display: flex;
+  justify-content: center; align-items: center;} 
+.main_icon .inner ul{display: flex; justify-content: center; gap: 100px; }
+.main_icon .inner ul li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  transition: all 0.3s ease;}
+
+
+.main_icon .inner ul li p a{color: #404040;}
+.main_icon .inner ul li p:hover a{color: #000;}
+.main_icon .inner ul li:hover a img{transform: rotate(20deg);}
+.main_icon .inner ul li a img{transition: all 0.3s ease;}
+
+/*introduce*/
+.introduce{padding: 150px 0;}
+.introduce .item{display: flex; gap: 50px;}
+.introduce .item .txt a{width: 180px; height: 50px; background-color: #111111; border-radius: 22px; color: #fff; font-weight: bold; text-align: center; line-height: 50px;}
+.introduce .item .txt{display: flex; flex-direction: column; gap: 30px; justify-content: center;}
+
+.introduce .item .txt a:hover{background-color: rgba(0, 0, 0, 0.7);}
+
+/*line_up*/
+.line_up{width: 100%; background-color: #000000; padding: 100px 0;}
+.line_up .inner{display: flex; flex-direction: column; justify-content: space-between; align-items: center; gap: 80px;}
+.line_up .inner a{color: #fff;}
+.line_up .inner h1{color: #fff; font-weight: 500;} 
+.line_up .inner .img_box ul{display: flex; gap: 50px;}
+.line_up .inner .img_box ul li{display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 20px; transition: all 0.3s ease-out;}
+.line_up .inner > a{width: 138px; height: 58px; background-color: #fff;
+  color: #000; border-radius: 22px; text-align: center; line-height: 58px; font-weight: bolder;}
+.line_up .inner > a:hover{background-color: #ffffff8a; color: #fff;}
+.line_up .inner .img_box ul li a{overflow: hidden; width: 426px; height: 675px; border-radius: 40px;}
+.line_up .inner .img_box ul li:hover img{transform: scale(1.1);}
+.line_up .inner .img_box ul li img{transition: all 0.3s ease;}
+
+
+/*event*/
+
+.event{padding: 150px 0;}
+.event .inner{display: flex; justify-content: space-between; width: 1430px;}
+.event .inner > a{width: 557px; height: 787px; overflow: hidden; transition: all 0.3s ease; border-radius: 22px;}
+.event .inner .e_img a:first-child{width: 837px; height: 324px; border-radius: 22px; overflow: hidden; transition: all 0.3s ease;}
+.event .inner .e_img a:last-child{width: 837px; height: 434px; border-radius: 22px; overflow: hidden; transition: all 0.3s ease;}
+.event .inner a:hover img{transform: scale(1.1); opacity: 0.8;}
+.event .inner a img{transition: all 0.3s ease;}
+.event .inner .e_img{display: flex; flex-direction: column; justify-content: space-between;}
+
+
+/*footer*/
+footer{position: relative; width: 100%; background-color: #0B0E17; padding: 100px 0;}
+footer .inner .f_list{width: 1430px; margin: 0 auto; display: flex; flex-direction: column; gap: 150px;}
+footer .inner .f_list a , footer .inner .f_list h3 , footer .inner .f_list p{color: #fff;}
+footer .inner .f_list ul{display: flex; gap: 324px;}
+footer .inner .f_list ul li{display: flex; flex-direction: column; gap: 20px;}
+footer .inner .f_list ul li p{padding-left: 10px; padding-top: 10px; font-size: 14px; font-weight: 100;}
+footer .inner .f_list ul li h3{padding-bottom: 20px;}
+footer .inner .f_list ul li a{font-size: 14px; font-weight: 100;}
+
+footer .inner .f_list .f_second{display: flex; justify-content: space-between;}
+footer .inner .f_list .f_second .f_txt .f_connection a{padding-right: 14px; font-size: 13px; font-weight: 100;}
+footer .inner .f_list .f_second .f_txt .c_txt{padding-top: 40px; display: flex; flex-direction: column; gap: 100px;}
+footer .inner .f_list .f_second .f_txt .c_txt p{line-height: 30px; font-size: 13px; font-weight: 100;}
+footer .inner .f_list .f_second .f_txt .c_txt span{color: #fff; font-size: 11px; font-weight: 100;}
+footer .inner .f_list .f_second .f_icon a{padding-left: 10px;}
+
+footer .inner .line{width: 1720px; height: 1px; background-color: #fff; position: absolute; top: 60%;}
